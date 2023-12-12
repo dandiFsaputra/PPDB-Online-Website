@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    /* WARNA */
+    --biru: #2997FF;
+    --merah: #DC213E;
+    --putih: #FFFFFF;
+    --kuning: #FFBA00;
+    --grey: #F0F0F0;
+    --hitam1: #161617;
+    --hitam2: #4A4B4C;
+    --hitam3: #4A4B4C;
+    --hijau: #59C6D4;
+}
+
+#formEnd {
+    background-image: url(/assets/img/bg-form-end.png);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+#formEnd .container-md {
+    height: 100%;
+}
+
+.content-end{
+    width: 637px;
+}
+.content-end h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--putih);
+}
+.content-end .btn-pengumuman2 {
+    background-color: var(--hijau);
+    color: var(--putih);
+    border: 1px solid var(--hitam1);
+    padding: 10px 24px;
+    -o-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+}
+.content-end .btn-pengumuman2:hover {
+    background-color: #A2E1E9;
+}
+.content-end .btn-halUtama {
+    background-color: var(--putih);
+    color: var(--biru);
+    border: 1px solid var(--hitam1);
+    padding: 10px 24px;
+    -o-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+}
+.content-end .btn-halUtama:hover {
+    background-color: var(--grey);
+    color: var(--hitam1);
+}
